@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova 2 módulo 5</title>
     <script src="https://unpkg.com/htmx.org@1.9.11"></script>
+    <link rel="stylesheet" href="../static/styles/style.css">
 </head>
 <body>
     <header>
@@ -12,9 +13,10 @@
             Logs das requisições
         </h1>
     </header>
-    <br>
-    <button hx-get="/info" hx-trigger="click,load" hx-target="#log">Atualizar logs</button>
-    <div>
+    <div id="botão">
+        <button hx-get="/info" hx-trigger="click,load" hx-target="#log">Atualizar logs</button>
+    </div>
+    <div id="logs">
         <ul id="log"></ul>
     </div>    
 </body>

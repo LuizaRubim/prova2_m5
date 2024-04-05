@@ -1,6 +1,4 @@
-## Robô controlado por HTMX
-
-Este projeto é um exemplo de como controlar um robô através de uma interface web utilizando HTMX.
+## Prova 2 Módulo 5 - Desenvolvendo Aplicações Web com Flask e HTMX
 
 ### Como funciona
 Para executar o projeto, siga os passos abaixo:
@@ -9,9 +7,4 @@ Para executar o projeto, siga os passos abaixo:
 - Instale as dependências do projeto com o comando `pip install -r requirements.txt`
 - Na pasta do projeto e executar o comando `flask run`. Em seguida, acesse o endereço fornecido no terminal.
 
-
-### Vídeo demonstrativo
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f0ZrqYXvCiQ?si=6AgufqjkWavN2I3Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[Vídeo demonstrativo](https://youtu.be/f0ZrqYXvCiQ?feature=shared)
+- para testar as rotas `/ping` e `/echo`, sugiro utilizar o Postman ou ThunderClient, uma extensão do VSCode.
