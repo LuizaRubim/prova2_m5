@@ -10,14 +10,26 @@
 <body>
     <header>
         <h1>
-            Logs das requisições
+            Requisições
         </h1>
     </header>
-    <div id="botão">
-        <button hx-get="/info" hx-trigger="click,load" hx-target="#log">Atualizar logs</button>
+    <div id="content">
+        <div>
+            <h2>Teste das rotas</h2>
+            <button hx-get="/ping" hx-trigger="click" hx-target="#pong">ping</button>
+            <div id="pong"></div>
+        </div>
+
+        <div id="logs-content">
+            <h2>Logs</h2>
+            <div id="botão">
+                <button hx-get="/info" hx-trigger="click,load" hx-target="#log">Atualizar logs</button>
+            </div>
+            <div id="logs">
+                <ul id="log"></ul>
+            </div> 
+        </div>
     </div>
-    <div id="logs">
-        <ul id="log"></ul>
-    </div>    
+    
 </body>
 </html>

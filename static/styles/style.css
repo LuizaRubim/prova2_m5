@@ -42,8 +42,13 @@ body{
     overflow: scroll;
     max-height: 400px;
     padding: 4px;
-    width: 50%;
     margin: 4px;
     border: rgb(67, 26, 104) solid 2px;
     border-radius: 10px;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
 }
